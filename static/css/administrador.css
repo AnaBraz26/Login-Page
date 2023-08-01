@@ -1,0 +1,36 @@
+@import url(../css/home.css);
+
+body{
+    background: url(../imagens/adm.webp) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo{
+    backdrop-filter: blur(30px);
+    font-size: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#form_fundo{
+    position: absolute;
+    margin:  1% 50% 5% 5%;
+
+}
+
+div#form_fundo.lista_usuarios{
+    position: relative;
+    margin:  2% 1% 5% 51%;
+
+}
+
+div#form_frente.lista_usuarios{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    overflow-y: scroll;
+    height: 250px;
+}
